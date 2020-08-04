@@ -11,8 +11,8 @@ print("""
 from twilio.rest import Client
 import time
 import pymsgbox
-cod = pymsgbox.prompt("Type Country Code:")
-msg = pymsgbox.prompt("Type Message text with yout Link:")
+cod = "1"
+msg = "Hello"
 cod = "+" + cod
 numbar = sum(1 for line in open('phonelist.txt'))
 time.sleep(4)
