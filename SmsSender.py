@@ -30,7 +30,7 @@ for i in range(0,numbar):
     message = client.messages.create(
     to= recipent, 
     from_="+12146236099",
-    body= omsg)
+    body= msg)
     print(message.sid)
     print("SMS Sent Success!")
     time.sleep(1)
